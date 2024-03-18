@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db83a7c68275de243b9cdb93c74c7761
+guid: 3010401d140c3c540bf1ca1c403aeb80
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
@@ -17,7 +17,7 @@ ModelImporter:
     second: //RootNode
   - first:
       43: 4300000
-    second: tent_red_07:Mesh
+    second: tent_blue_05:Mesh
   - first:
       95: 9500000
     second: //RootNode
