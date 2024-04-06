@@ -13924,7 +13924,7 @@ GameObject:
   - component: {fileID: 1051974876}
   - component: {fileID: 1051974875}
   - component: {fileID: 1051974878}
-  - component: {fileID: 1051974877}
+  - component: {fileID: 1051974879}
   m_Layer: 0
   m_Name: Leonidas Dialogue
   m_TagString: Untagged
@@ -13963,7 +13963,7 @@ MonoBehaviour:
   - {fileID: 1051974860}
   - {fileID: 1051974876}
   - {fileID: 1051974875}
-  - {fileID: 1051974877}
+  - {fileID: 1051974879}
   suppressAllAutoSelections: 0
 --- !u!114 &1051974854
 MonoBehaviour:
@@ -13991,8 +13991,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1051974853}
-  selectedCommands:
-  - {fileID: 1051974877}
+  selectedCommands: []
   variables:
   - {fileID: 1051974863}
   - {fileID: 1051974862}
@@ -14477,20 +14476,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1051974877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051974850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9b9c7a9785c34fc889da2b3a40344db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 2
 --- !u!114 &1051974878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14734,6 +14719,20 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1051974879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051974850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 1
 --- !u!1 &1054904076
 GameObject:
   m_ObjectHideFlags: 0
