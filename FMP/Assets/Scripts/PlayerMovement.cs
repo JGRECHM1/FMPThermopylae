@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
+    Animator PlayerAnimator;
+
     [Header("Movement")]
     public float moveSpeed;
 
@@ -26,12 +28,56 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        PlayerAnimator = gameObject.GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
 
     private void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            PlayerAnimator.SetBool("isMoving", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            PlayerAnimator.SetBool("isMoving", false);
+        }
+
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            PlayerAnimator.SetBool("isMoving", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            PlayerAnimator.SetBool("isMoving", false);
+        }
+
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            PlayerAnimator.SetBool("isMoving", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            PlayerAnimator.SetBool("isMoving", false);
+        }
+
+
+        if(Input.GetKeyDown(KeyCode.D))
+        {
+            PlayerAnimator.SetBool("isMoving", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            PlayerAnimator.SetBool("isMoving", false);
+        }
+
+
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
         MyInput();
