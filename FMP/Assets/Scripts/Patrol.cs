@@ -29,9 +29,6 @@ public class Patrol : MonoBehaviour
             IncreaseIndex();
         }
         patrol();
-
-
-
     }
 
     void patrol()
