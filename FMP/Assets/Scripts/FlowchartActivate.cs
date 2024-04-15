@@ -12,7 +12,5 @@ public class FlowchartActivate : MonoBehaviour
         {
             leonidasFlowchart.SetActive(true);
         }
-
-
     }
 }
